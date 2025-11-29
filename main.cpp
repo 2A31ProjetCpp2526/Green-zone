@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
     ChartDialog dlg;   // ★ SHOW CHART
     dlg.exec();
 
+    SmartMetalDialog Dlg;
+    Dlg.exec();
+    
+
 
     return a.exec();
 }
